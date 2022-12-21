@@ -18,7 +18,3 @@
 3) Настройка эмулятора - https://developer.android.com/studio/run/emulator
 4) Настройка аппиума - https://appium.io/docs/en/about-appium/getting-started/#installing-appium
 5) Инспектор приложения - https://appium.io/docs/en/drivers/android-uiautomator2/
-
-### Login credentials
-login - qa.ajax.app.automation@gmail.com
-password - qa_automation_password
