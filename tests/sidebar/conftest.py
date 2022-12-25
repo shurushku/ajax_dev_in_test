@@ -7,6 +7,7 @@ from framework.login_page import LoginPage
 
 @pytest.fixture(scope='session')
 def user_login_fixture(driver):
+    driver.launch_app()
     page = LoginPage(driver)
     page.login_user('qa.ajax.app.automation@gmail.com', 'qa_automation_password')
     time.sleep(5)
