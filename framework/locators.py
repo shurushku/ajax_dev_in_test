@@ -10,5 +10,19 @@ class LoginPageLocators:
     INPUT_PASSWORD = (By.ID, 'com.ajaxsystems:id/password')
 
 
-class MainPageLocators:
-    BUTTON_SIDE_BAR = (By.ID, 'com.ajaxsystems:id/menuDrawer')
+class SidebarLocators:
+    BUTTON_SIDEBAR = (By.ID, 'com.ajaxsystems:id/menuDrawer')
+    SIDEBAR = (By.ID, 'com.ajaxsystems:id/nav_view')
+    SIDEBAR_BUTTON_ADD_HUB = (By.ID, 'com.ajaxsystems:id/addHub')
+    SIDEBAR_BUTTON_SETTINGS = (By.ID, 'com.ajaxsystems:id/settings')
+    SIDEBAR_BUTTON_HELP = (By.ID, 'com.ajaxsystems:id/help')
+    SIDEBAR_BUTTON_LOGS = (By.ID, 'com.ajaxsystems:id/logs')
+    SIDEBAR_BUTTON_DOCUMENTATION = (By.ID, 'com.ajaxsystems:id/documentation_text')
+
+
+class PagesLocators:
+    PAGE_ADD_HUB = (By.ID, 'com.ajaxsystems:id/toolbarTitle')
+    PAGE_SETTINGS = (By.ID, 'com.ajaxsystems:id/toolbarTitle')
+    PAGE_HELP = (By.ID, 'com.ajaxsystems:id/toolbarTitle')
+    PAGE_LOGS = (By.ID, 'com.ajaxsystems:id/title')
+    PAGE_DOCUMENTATION = (By.ID, 'com.ajaxsystems:id/toolbarTitle')

@@ -4,7 +4,7 @@ from appium.webdriver.webelement import WebElement
 
 class Page:
 
-    def __init__(self, driver):
+    def __init__(self, driver) -> None:
         self.driver = driver
 
     def check_element_exist(self, locator: tuple) -> bool:
@@ -29,5 +29,8 @@ class Page:
         element = self.find_element(locator)
         element.send_keys(text)
 
-    def wait(self, seconds: int):
+    def wait(self, seconds: int) -> None:
         self.driver.implicitly_wait(seconds)
+
+    def back(self):
+        self.driver.back()
